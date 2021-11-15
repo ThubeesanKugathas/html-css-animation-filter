@@ -113,6 +113,7 @@
     animation-name: rotate;
     animation-duration: .5s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
 @keyframes rotate {
@@ -184,21 +185,25 @@
 .ex-12-button:hover .ex-12-top-white {
     animation-name: move-top-a;
     animation-duration: 3s;
+    animation-timing-function: linear;
 }
 
 .ex-12-button:hover .ex-12-bottom-white {
     animation-name: move-bottom-a;
     animation-duration: 3s;
+    animation-timing-function: linear;
 }
 
 .ex-13-button:hover .ex-13-top-white {
     animation-name: move-top-b;
     animation-duration: 3s;
+    animation-timing-function: linear;
 }
 
 .ex-13-button:hover .ex-13-bottom-white {
     animation-name: move-bottom-b;
     animation-duration: 3s;
+    animation-timing-function: linear;
 }
 
 @keyframes move-top-a {
