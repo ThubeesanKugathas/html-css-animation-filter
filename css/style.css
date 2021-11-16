@@ -250,10 +250,12 @@
     75% {
         left: 0;
         top: 100%;
+        width: 30px;
     }
     85% {
         left: -10px;
         top: -10px;
+        width: 30px;
     }
     100% {
         left: 10%;
@@ -269,10 +271,12 @@
     25% {
         right: calc(100% - 60px);
         bottom: -10px;
+        width: 30px;
     }
     35% {
         right: 100%;
         bottom: 100%;
+        width: 30px;
     }
     50% {
         right: calc(100% - 60px);
